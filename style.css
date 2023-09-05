@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(39, 39, 39);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: x-large;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    margin: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+}
+.jogos{
+    width: 250px;
+    border-radius: 150px;
+    transition: 100ms linear;
+}
+.jogos:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border: solid 5px rgb(183, 0, 255);
+}
+main{
+    margin: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.informacoes{
+    width: 50%;
+    display: flex;
+}
+.coluna{
+    width: 50%;
+}
+p{
+    margin-bottom: 60px;
+}
+#foto img {
+    border-radius: 15px;
+    width: 800px;
+    box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.25);
+}
+.colFoto{
+    width: 900px;
+}

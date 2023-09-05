@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Games</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="imagens/logo.png" alt="">
+        <h1>Super Games</h1>
+    </header>
+
+    <nav>
+        <div>
+            <img onclick="Valorant()" class="jogos" src="imagens/valorant.png" alt="">
+            <p>Valorant</p>
+        </div>
+        <div>
+            <img onclick="Fortnite()" class="jogos" src="imagens/fortnite.png" alt="">
+            <p>Fortnite</p>
+        </div>
+        <div>
+            <img onclick="Rocket()" class="jogos" src="imagens/rocket.png" alt="">
+            <p>Rocket League</p>
+        </div>
+        <div>
+            <img onclick="Fifa()" class="jogos" src="imagens/fifa.png" alt="">
+            <p>Fifa 23</p>
+        </div>
+        <div>
+            <img onclick="Impact()" class="jogos" src="imagens/genshin.png" alt="">
+            <p>Genshin</p>
+        </div>
+    </nav>
+
+    <main>
+        <div class="informacoes">
+            <div class="coluna">
+                <div>
+                    <h3>Jogo:</h3>
+                    <p id="nome"></p>
+                </div>
+                <div>
+                    <h3>Desenvolvedora:</h3>
+                    <p id="desenvolvedor"></p>
+                </div>
+                <div>
+                    <h3>Plataforma:</h3>
+                    <p id="plataforma"></p>
+                </div>
+            </div>
+            <div class="coluna">
+                <div>
+                    <h3>Gênero:</h3>
+                    <p id="genero"></p>
+                </div>
+                <div>
+                    <h3>Lançamento:</h3>
+                    <p id="ano"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="colFoto">
+            <div id="foto"></div>
+        </div>
+    </main>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
