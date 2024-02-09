@@ -41,7 +41,6 @@ main{
 }
 .informacoes{
     width: 50%;
-    display: flex;
     display: none;
 }
 .coluna{
