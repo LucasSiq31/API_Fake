@@ -8,8 +8,6 @@ function Valorant(){
 
     const myArray = JSON.parse(myJSON);
     console.log(myArray)
-
-    document.getElementById("informacoes").style.display = flex;
     
     document.getElementById("nome").innerHTML= myArray[0]
     document.getElementById("desenvolvedor").innerHTML= myArray[1]
